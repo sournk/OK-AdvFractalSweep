@@ -8,6 +8,8 @@
 //| 2024-11-08:
 //|   [+] double Spread()
 //|   [+] GetSpreadAt() func
+//| 2024-11-29:
+//|   [*] double Spread() renamed to SpreadDouble
 //+------------------------------------------------------------------+
 #property copyright "Denis Kislitsyn"
 #property link      "https://kislitsyn.me"
@@ -48,7 +50,7 @@ public:
   
   void                MockRemoveAll();
   
-  double              Spread();
+  double              SpreadDouble();
   double              GetSpreadAt(const ulong _ms);
 };
 
@@ -227,7 +229,7 @@ void CDKSymbolInfo::MockTimeRemove() {
   GlobalVariableDel("CDKSymbolInfo::MockTime_series_mode");
 }
 
-double CDKSymbolInfo::Spread(){
+double CDKSymbolInfo::SpreadDouble(){
   RefreshRates();
   return Ask()-Bid();
 }
