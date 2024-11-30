@@ -1,5 +1,5 @@
 # OK-AdvFractalSweep
-Торговый советник для MetaTrader 5, который получает данные от внешнего REST-сервера для построения индикатора
+Торговый советник для MetaTrader 5, которые торгует отскоки от фильтрованных уровней фракталов
 
 * Created by Denis Kislitsyn | denis@kislitsyn.me | [kislitsyn.me](https://kislitsyn.me)
 * https://docs.google.com/document/d/1uVf44NRM1c1Zju0DkWYgsO-Vwy2DcKiAImO5_usa7tA/edit?tab=t.0
