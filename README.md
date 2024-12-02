@@ -3,7 +3,7 @@
 
 * Created by Denis Kislitsyn | denis@kislitsyn.me | [kislitsyn.me](https://kislitsyn.me)
 * https://docs.google.com/document/d/1uVf44NRM1c1Zju0DkWYgsO-Vwy2DcKiAImO5_usa7tA/edit?tab=t.0
-* Version: 1.01
+* Version: 1.02
 
 !!! warning ПРЕДУПРЕЖДЕНИЕ
     1. Торговая стратегия определена клиентом, и автор не несет за нее ответственности.
@@ -16,6 +16,7 @@
 ## Что нового
 
 ```
+1.02: [*] Исправлена ошибка перепутанных фильтров для разных режимов.
 1.01: [+] Фракталы Williams
 1.00: [+] Релиз
 ```
